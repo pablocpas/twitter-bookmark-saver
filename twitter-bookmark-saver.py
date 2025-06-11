@@ -1,5 +1,4 @@
 import asyncio
-import re # Note: 're' is imported but not used in the current script.
 from playwright.async_api import async_playwright, Playwright, Browser, Page, TimeoutError as PlaywrightTimeoutError
 
 async def setup_browser_and_page(playwright: Playwright):
